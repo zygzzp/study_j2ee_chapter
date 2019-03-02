@@ -11,8 +11,16 @@ class LiuDeHua implements Geli{
     }
 }
 public class Moattack {
-    public static void main(String[] args) {
-        Geli geli = new LiuDeHua();
+//    public static void main(String[] args) {
+//        Geli geli = new LiuDeHua();
+//        geli.responseAsk();
+//    }
+    private Geli geli;
+
+    public Moattack(Geli geli) {
+        this.geli = geli;
+    }
+    public void cityGatAsk(){
         geli.responseAsk();
     }
 }
