@@ -17,9 +17,11 @@ public class Moattack {
 //    }
     private Geli geli;
 
-    public Moattack(Geli geli) {
+
+    public void setGeli(Geli geli) {
         this.geli = geli;
     }
+
     public void cityGatAsk(){
         geli.responseAsk();
     }

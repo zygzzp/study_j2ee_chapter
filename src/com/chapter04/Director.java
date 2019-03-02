@@ -3,7 +3,8 @@ package com.chapter04;
 public class Director {
     public static void main(String[] args) {
         Geli geli = new LiuDeHua();
-        Moattack moattack =new Moattack(geli);
+        Moattack moattack =new Moattack();
+        moattack.setGeli(geli);
         moattack.cityGatAsk();
     }
 
